@@ -4,38 +4,61 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .contact-wrapper {
   display: flex;
   align-items: center;
 }
 
-.contact-wrapper div {
-  display: flex;
-  align-items: center;
-  margin: 3px;
-}
-.contact-wrapper div {
+.contact-wrapper > div {
   display: flex;
   align-items: center;
 }
+
 .button {
   background-color: #f26522;
-  padding: 1% 1%;
+  padding: 2% 10%;
   color: white;
   text-decoration: none;
   white-space: nowrap;
   text-transform: uppercase;
-  font-weight: 60;
+  font-weight: 600;
   transition: all 0.3s;
 }
+
 .button:hover {
   background-color: #222;
 }
-.header-hightlight small {
-  display: block;
-  margin: 7px 0;
-  opacity: 0.9;
-  font-size: 80%;
-  font-weight: 600;
-  text-transform: uppercase;
+
+.contact-icon {
+  font-size: 25px;
+  margin-right: 10px;
 }
+
+.contact-heading p {
+  white-space: nowrap;
+}
+
+.contact-heading-top {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+}
+
+.contact-heading-bottom {
+  color: #f26522;
+}
+
+.contact-information {
+  margin: 0 20px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact-information {
+  display: flex;
